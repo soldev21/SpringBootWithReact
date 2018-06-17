@@ -1,0 +1,1 @@
+ReactDOM.render(<App surname="Azimli" name="Qurban"/>,document.getElementById('root'));
