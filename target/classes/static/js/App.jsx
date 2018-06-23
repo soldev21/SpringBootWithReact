@@ -41,6 +41,7 @@ class App extends React.Component{
     render(){
         return (
           <div className="test">
+              <Header/>
               <h1>Hello {this.props.surname}  {this.props.name}!</h1>
               <h2>It is {this.state.date.toLocaleTimeString()}</h2>
               <h3><App2 name={this.state.date.toLocaleTimeString()} /></h3>
